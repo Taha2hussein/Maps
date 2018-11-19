@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51080ED7218C35B600951695 /* BankData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51080ED6218C35B600951695 /* BankData.swift */; };
+		51080ED9218C3D3000951695 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51080ED8218C3D2F00951695 /* MapKit.framework */; };
+		51080EDB218C431400951695 /* customViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51080EDA218C431400951695 /* customViewController.swift */; };
+		514978E52189D42100974970 /* Annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514978E42189D42100974970 /* Annotations.swift */; };
+		514978E72189DB7D00974970 /* MosquesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514978E62189DB7D00974970 /* MosquesData.swift */; };
 		51F7AF3D2189CCA00072BB23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7AF3C2189CCA00072BB23 /* AppDelegate.swift */; };
 		51F7AF3F2189CCA00072BB23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7AF3E2189CCA00072BB23 /* ViewController.swift */; };
 		51F7AF422189CCA00072BB23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F7AF402189CCA00072BB23 /* Main.storyboard */; };
 		51F7AF442189CCA60072BB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F7AF432189CCA60072BB23 /* Assets.xcassets */; };
 		51F7AF472189CCA60072BB23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F7AF452189CCA60072BB23 /* LaunchScreen.storyboard */; };
+		884DE8FD7D390EC6A8D15F8D /* Pods_Maps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8DE88C09B86A5747986183 /* Pods_Maps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51080ED6218C35B600951695 /* BankData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankData.swift; sourceTree = "<group>"; };
+		51080ED8218C3D2F00951695 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		51080EDA218C431400951695 /* customViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customViewController.swift; sourceTree = "<group>"; };
+		514978E42189D42100974970 /* Annotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotations.swift; sourceTree = "<group>"; };
+		514978E62189DB7D00974970 /* MosquesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosquesData.swift; sourceTree = "<group>"; };
 		51F7AF392189CCA00072BB23 /* Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F7AF3C2189CCA00072BB23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51F7AF3E2189CCA00072BB23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,9 @@
 		51F7AF432189CCA60072BB23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51F7AF462189CCA60072BB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51F7AF482189CCA60072BB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695E259EA78D57859DE757D5 /* Pods-Maps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Maps/Pods-Maps.debug.xcconfig"; sourceTree = "<group>"; };
+		BBE6F626A6E27754E4F33A6D /* Pods-Maps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maps.release.xcconfig"; path = "Pods/Target Support Files/Pods-Maps/Pods-Maps.release.xcconfig"; sourceTree = "<group>"; };
+		FD8DE88C09B86A5747986183 /* Pods_Maps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Maps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51080ED9218C3D3000951695 /* MapKit.framework in Frameworks */,
+				884DE8FD7D390EC6A8D15F8D /* Pods_Maps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +56,8 @@
 			children = (
 				51F7AF3B2189CCA00072BB23 /* Maps */,
 				51F7AF3A2189CCA00072BB23 /* Products */,
+				55A92D127996F1D3377487D2 /* Pods */,
+				F2181BFAE3A4B91C4045CE2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +78,30 @@
 				51F7AF432189CCA60072BB23 /* Assets.xcassets */,
 				51F7AF452189CCA60072BB23 /* LaunchScreen.storyboard */,
 				51F7AF482189CCA60072BB23 /* Info.plist */,
+				514978E42189D42100974970 /* Annotations.swift */,
+				514978E62189DB7D00974970 /* MosquesData.swift */,
+				51080ED6218C35B600951695 /* BankData.swift */,
+				51080EDA218C431400951695 /* customViewController.swift */,
 			);
 			path = Maps;
+			sourceTree = "<group>";
+		};
+		55A92D127996F1D3377487D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				695E259EA78D57859DE757D5 /* Pods-Maps.debug.xcconfig */,
+				BBE6F626A6E27754E4F33A6D /* Pods-Maps.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2181BFAE3A4B91C4045CE2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51080ED8218C3D2F00951695 /* MapKit.framework */,
+				FD8DE88C09B86A5747986183 /* Pods_Maps.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +111,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51F7AF4B2189CCA60072BB23 /* Build configuration list for PBXNativeTarget "Maps" */;
 			buildPhases = (
+				38A985332AAC090043AA9E82 /* [CP] Check Pods Manifest.lock */,
 				51F7AF352189CCA00072BB23 /* Sources */,
 				51F7AF362189CCA00072BB23 /* Frameworks */,
 				51F7AF372189CCA00072BB23 /* Resources */,
+				966F0F2045AB3B456C627F8F /* [CP] Copy Pods Resources */,
+				035E544A94DE3073F390CEFD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +139,11 @@
 				TargetAttributes = {
 					51F7AF382189CCA00072BB23 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -130,6 +178,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		035E544A94DE3073F390CEFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Maps/Pods-Maps-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Maps/Pods-Maps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38A985332AAC090043AA9E82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Maps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		966F0F2045AB3B456C627F8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Maps/Pods-Maps-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Maps/Pods-Maps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51F7AF352189CCA00072BB23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +246,10 @@
 			files = (
 				51F7AF3F2189CCA00072BB23 /* ViewController.swift in Sources */,
 				51F7AF3D2189CCA00072BB23 /* AppDelegate.swift in Sources */,
+				51080ED7218C35B600951695 /* BankData.swift in Sources */,
+				514978E52189D42100974970 /* Annotations.swift in Sources */,
+				514978E72189DB7D00974970 /* MosquesData.swift in Sources */,
+				51080EDB218C431400951695 /* customViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +391,7 @@
 		};
 		51F7AF4C2189CCA60072BB23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 695E259EA78D57859DE757D5 /* Pods-Maps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +409,7 @@
 		};
 		51F7AF4D2189CCA60072BB23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE6F626A6E27754E4F33A6D /* Pods-Maps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
